@@ -266,3 +266,63 @@ a {
 }
 
 /* SECTION 2 END */
+
+/* PREMIUM START */
+.premium {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.premium__bg {
+  background: url("/public/img/section3img1.png") center / cover no-repeat;
+  height: 592px;
+  width: 576px;
+}
+.premium__content {
+  max-width: 576px;
+}
+.premium__text {
+  color: #1f2937;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.premium__p {
+  font-size: 18px;
+  color: #4b5563;
+}
+.premium__buttons {
+  margin-top: 39px;
+}
+.premium__link {
+  background-color: #1f2937;
+  border: 1px solid #1f2937;
+  padding: 12px 25px;
+  border-radius: 8px;
+}
+.premium__button {
+  color: #111827;
+  background-color: #fff;
+  border: none;
+  margin-left: 16px;
+}
+.premium__span1 {
+  font-size: 16px;
+}
+.premium__span2 {
+  font-weight: 900;
+}
+/* PREMIUM END */
+
+.transition {
+  background-color: #fff;
+  height: 128px;
+}
+
+.easily__bg {
+  background: url("/public/img/section3img2.png") center / cover no-repeat;
+  height: 592px;
+  width: 576px;
+}
