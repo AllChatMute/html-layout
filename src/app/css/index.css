@@ -357,4 +357,72 @@ a {
   margin-bottom: 63px;
 }
 
+.popular__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 405px;
+  min-height: 500px;
+  background-color: #00353b;
+  border-radius: 16px;
+  padding: 32px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.popular__links {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #1f2937;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.popular__webflow {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: block;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.popular__btn {
+  background-color: #22a45a;
+  border: 1px solid #22a45a;
+  padding: 9px 21px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 142px;
+}
+
+.popular__money {
+  color: #fff;
+  font-size: 18px;
+}
+
+.popular__img {
+  width: 315px;
+  height: 315px;
+  position: absolute;
+  bottom: -30px;
+  right: -85px;
+}
+
+.popular__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
 /* POPULAR END */
