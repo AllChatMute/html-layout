@@ -424,3 +424,56 @@ a {
   border-radius: 50%;
 }
 /* POPULAR END */
+
+/* STUDENT START */
+.student {
+}
+.student__wrapper {
+  display: flex;
+  margin-bottom: 80px;
+}
+.student__content {
+  padding: 64px;
+  background: #fcd8ca;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100%;
+}
+.student__link {
+  display: inline-block;
+  padding: 4px 8px;
+  color: #1f2937;
+  background: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.student__text {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  color: #1f2937;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+}
+.student__description {
+  display: inline-block;
+  font-size: 18px;
+  color: #374151;
+  margin-bottom: 39px;
+}
+.student__btn {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  padding: 13px 25px;
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+}
+.student__bg {
+  height: 539px;
+  width: 100%;
+  background: url("/public/img/section5img1.png") center / cover no-repeat;
+}
+/* STUDENT END */
