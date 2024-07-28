@@ -26,7 +26,7 @@ body {
 .award__img {
   position: absolute;
   cursor: pointer;
-  left: 95%;
+  left: 90%;
 }
 
 .wrapper {
@@ -1007,4 +1007,69 @@ a {
   height: 32px;
   width: 32px;
   border-radius: 5px;
+}
+
+@media (max-width: 1300px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .content {
+    flex-direction: column;
+    gap: 200px;
+  }
+  .content__info {
+    text-align: center;
+  }
+  .content__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .header {
+    padding: 40px 0;
+  }
+  .header__nav {
+    margin-bottom: 15px;
+  }
+
+  .header__nav a {
+    font-size: 18px;
+  }
+  .content {
+    gap: 300px;
+  }
+  .content__video-bg {
+    display: none;
+  }
+  .content__text {
+    max-width: 380px;
+    text-align: center;
+  }
+
+  .reviews {
+    flex-direction: column;
+  }
+  .content__videos {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 567px) {
+  .award__div {
+    font-size: 12px;
+  }
 }
